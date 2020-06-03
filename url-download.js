@@ -2,7 +2,7 @@ export default function urlDownload(fileUrl) {
     var tempLink = document.createElement('a');
     tempLink.style.display = 'none';
     tempLink.href = fileUrl;
-    tempLink.setAttribute('download', fileURL);
+    tempLink.setAttribute('download', fileUrl);
 
     // Safari thinks _blank anchor are pop ups. We only want to set _blank
     // target if the browser does not support the HTML5 download attribute.
