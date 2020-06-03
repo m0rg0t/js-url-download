@@ -1,12 +1,12 @@
-# Javascript File Download
+# Javascript url Download
 
-Javascript function to trigger browser to save data to file as if it was downloaded.
+Javascript function that triggers browser to save given url as a files.
 
 # Installation
 
-    npm install js-file-download --save
+    npm install js-url-download --save
 
 # Usage
 
-    var fileDownload = require('js-file-download');
-    fileDownload(data, 'filename.csv');
+    const urlDownload = require('js-url-download');
+    urlDownload('https://via.placeholder.com/150');
