@@ -1,4 +1,4 @@
-# Javascript url Download
+# Javascript url Downloader
 
 Javascript function that triggers browser to save given url as a files.
 
