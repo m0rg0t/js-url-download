@@ -1,15 +1,15 @@
 {
-  "name": "js-file-download",
-  "version": "0.4.12",
-  "description": "Javascript function that triggers browser to save javascript-generated content to a file",
-  "main": "file-download.js",
+  "name": "js-url-download",
+  "version": "0.1.1",
+  "description": "Javascript function that triggers browser to save given url as a files",
+  "main": "url-download.js",
   "scripts": {
-    "lint": "eslint file-download.js",
+    "lint": "eslint url-download.js",
     "test": "npm run lint"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:kennethjiang/js-file-download.git"
+    "url": "https://github.com/m0rg0t/js-url-download.git"
   },
   "keywords": [
     "javascript",
@@ -17,13 +17,13 @@
     "react",
     "download"
   ],
-  "author": "Kenneth Jiang <kenneth.jiang@gmail.com>",
+  "author": "Anton Lenev <m0rg0t.Anton@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kennethjiang/js-file-download/issues"
+    "url": "https://github.com/kennethjiang/js-url-download/issues"
   },
-  "homepage": "https://github.com/kennethjiang/js-file-download",
-  "typings": "js-file-download.d.ts",
+  "homepage": "https://github.com/m0rg0t/js-url-download",
+  "typings": "js-url-download.d.ts",
   "devDependencies": {
     "eslint": "^5.8.0"
   }

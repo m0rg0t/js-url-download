@@ -1,18 +1,7 @@
-module.exports = function(data, filename, mime, bom) {
-    var blobData = (typeof bom !== 'undefined') ? [bom, data] : [data]
-    var blob = new Blob(blobData, {type: mime || 'application/octet-stream'});
-    if (typeof window.navigator.msSaveBlob !== 'undefined') {
-        // IE workaround for "HTML7007: One or more blob URLs were
-        // revoked by closing the blob for which they were created.
-        // These URLs will no longer resolve as the data backing
-        // the URL has been freed."
-        window.navigator.msSaveBlob(blob, filename);
-    }
-    else {
-        var blobURL = (window.URL && window.URL.createObjectURL) ? window.URL.createObjectURL(blob) : window.webkitURL.createObjectURL(blob);
+module.exports = function(fileUrl) {
         var tempLink = document.createElement('a');
         tempLink.style.display = 'none';
-        tempLink.href = blobURL;
+        tempLink.href = fileUrl;
         tempLink.setAttribute('download', filename);
 
         // Safari thinks _blank anchor are pop ups. We only want to set _blank
