@@ -1,5 +1,5 @@
 {
-  "name": "js-url-download",
+  "name": "js-url-downloader",
   "version": "0.1.1",
   "description": "Javascript function that triggers browser to save given url as a files",
   "main": "url-download.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/m0rg0t/js-url-download.git"
+    "url": "https://github.com/m0rg0t/js-url-downloader.git"
   },
   "keywords": [
     "javascript",
@@ -20,9 +20,9 @@
   "author": "Anton Lenev <m0rg0t.Anton@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kennethjiang/js-url-download/issues"
+    "url": "https://github.com/kennethjiang/js-url-downloader/issues"
   },
-  "homepage": "https://github.com/m0rg0t/js-url-download",
+  "homepage": "https://github.com/m0rg0t/js-url-downloader",
   "typings": "js-url-download.d.ts",
   "devDependencies": {
     "eslint": "^5.8.0"
