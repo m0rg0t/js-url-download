@@ -1,6 +1,6 @@
 {
   "name": "js-url-downloader",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Javascript function that triggers browser to save given url as a files",
   "main": "url-download.js",
   "scripts": {
